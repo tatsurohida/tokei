@@ -9,6 +9,18 @@
             padding: 0;
             overflow: hidden;
         }
+
+        canvas {
+            z-index: 1;
+        }
+
+        p {
+            position: fixed;
+            bottom: 5px;
+            left: 5px;
+            color: grey;
+            z-index: 2;
+        }
     </style>
 </head>
 <body>
@@ -18,5 +30,6 @@
     <audio id="chime" preload="auto" muted>
         <source src="sound/chime.mp3" type="audio/mp3">
     </audio>
+    <p>"Japanese_School_Bell04" by <a href="http://musicisvfr.com/">Music is VFR</a> is licensed under CC BY 4.0</p>
 </body>
 </html>
